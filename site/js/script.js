@@ -88,7 +88,6 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
     });
     // *** finish **
 
-
     // Builds HTML for the home page based on categories array
     // returned from the server.
     function buildAndShowHomeHTML(categories) {
@@ -156,7 +155,6 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
             menuItemsUrl + categoryShort,
             buildAndShowMenuItemsHTML);
     };
-
 
     // Builds HTML for the categories page based on the data
     // from the server
